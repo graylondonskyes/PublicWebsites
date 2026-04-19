@@ -1,6 +1,6 @@
-Use these three uploaded files only. Do not use any old session output, any previously generated package, any prior sandbox artifact, or any files from earlier chats.
+Use these three already-unzipped folder packages only. Do not use any old session output, any previously generated package, any prior sandbox artifact, or any files from earlier chats.
 
-Match the files by overall base name even if the duplicate numbering suffixes are off. Use the current-session uploaded files whose names correspond to these base names:
+Match the folders by overall base name even if the duplicate numbering suffixes are off. Use the current-session extracted folders whose names correspond to these base names:
 
 skyes-over-london-linked-website-package
 skyesol-main
@@ -8,9 +8,9 @@ SOLEnterprises.org-main
 
 Source-of-truth role assignment:
 
-Root/base website package = the uploaded zip whose base name is skyes-over-london-linked-website-package
-Nested SkyeSol website = the uploaded zip whose base name is skyesol-main
-Nested SOLEnterprises website = the uploaded zip whose base name is SOLEnterprises.org-main
+Root/base website package = the extracted folder whose base name is skyes-over-london-linked-website-package
+Nested SkyeSol website = the extracted folder whose base name is skyesol-main
+Nested SOLEnterprises website = the extracted folder whose base name is SOLEnterprises.org-main
 
 Build goal:
 
@@ -20,8 +20,8 @@ Required structure:
 
 Preserve the Skyes Over London root package as the main website.
 Preserve the existing nested SkyeHands site exactly as it already exists inside the root package.
-Extract the SkyeSol zip into a folder named skyesol/ inside the root package.
-Extract the SOLEnterprises zip into a folder named solenterprises/ inside the root package.
+Copy/move the SkyeSol extracted folder contents into a folder named skyesol/ inside the root package.
+Copy/move the SOLEnterprises extracted folder contents into a folder named solenterprises/ inside the root package.
 
 Do not redesign anything.
 Do not replace branding.
@@ -30,7 +30,7 @@ Do not rebuild from scratch.
 Do not swap themes.
 Do not remove existing sections unless required to fix pathing or navigation.
 Do not use any files from prior sessions.
-Only merge the three live uploaded zips from this current session.
+Only merge the three live extracted folder packages from this current session.
 
 Navigation and linking requirements:
 
